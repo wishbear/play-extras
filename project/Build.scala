@@ -59,10 +59,10 @@ object Build extends Build {
   )
 
   def dependencies = Seq(
-    "play" %% "play" % "2.1.0",
-    "play" %% "anorm" % "2.1.0",
-    "play" %% "play-jdbc" % "2.1.0",
-    "com.typesafe.akka" %% "akka-actor" % "2.1.0",
+    "play" %% "play" % "2.1.1",
+    "play" %% "anorm" % "2.1.1",
+    "play" %% "play-jdbc" % "2.1.1",
+    "com.typesafe.akka" %% "akka-actor" % "2.1.1",
     "postgresql" % "postgresql" % "9.1-901-1.jdbc4",
     "org.scalaz" %% "scalaz-core" % "6.0.4",
     "redis.clients" % "jedis" % "2.1.0",
